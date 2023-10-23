@@ -78,7 +78,7 @@ transition: all 0.5s ease;
     opacity: 1;
 }
 
-.sidebar ul li .tooltipp {
+.sidebar ul li .tooltip {
     position: absolute;
     left: 125px;
     top: 50%;
