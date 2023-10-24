@@ -26,6 +26,7 @@
 
 .sidebar-column {
     
+    z-index: 1000;
     border-right: 8px solid #397c5a;
     overflow-y: hidden;
     background-color: #5fdd9d;
@@ -54,13 +55,16 @@ a:hover{
     background-color: #397c5a;
 }
 
-.page-names-column{
+#page-names-column{
     margin:0;
     padding:0;
     overflow-y: hidden;
-    margin-left:0%; /*-17%*/
-    z-index: -1;
-    background-color: rgb(92, 83, 83);
+    margin-left:-17%; /*-17%*/
+    z-index: 1;
+    background-color: rgba(255, 255, 255, .3);
+
+    transition: 0.5s;
+
 }
 
 .page-names-containers{
@@ -91,4 +95,36 @@ a:hover{
 
     font-size: 20px;
 
+}
+
+#home-bar {
+    visibility: hidden;
+}
+
+#green-bar {
+    visibility: hidden;
+}
+
+#space-bar {
+    visibility: hidden;
+}
+
+#healthcare-bar {
+    visibility: hidden;
+}
+
+#engineering-bar {
+    visibility: hidden;
+}
+
+#weather-bar {
+    visibility: hidden;
+}
+
+#maths-bar {
+    visibility: hidden;
+}
+
+#main_content {
+    transition: 0.5s;
 }
