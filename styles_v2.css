@@ -3,6 +3,21 @@ h1 {
     color: #5fdd9d;
 }
 
+h3{
+    color: #397c5a;
+}
+
+.text-content {
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+
+.emph {
+    background-color:#397c5a;
+    color: white;
+}
+
+
 .nopadding {
     padding: 2 !important;
     margin: 2 !important;
