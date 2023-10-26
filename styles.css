@@ -7,6 +7,10 @@ h3{
     color: #397c5a;
 }
 
+p{
+    text-align: justify;
+}
+
 .text-content {
     font-size: 18px;
     color: rgb(0, 0, 0);
@@ -15,6 +19,9 @@ h3{
 .emph {
     background-color:#397c5a;
     color: white;
+    padding: 5px;
+    font-style: italic;
+    font-weight: bold;
 }
 
 
@@ -26,6 +33,7 @@ h3{
 
 
  .sidebar {
+    
     height: 100%;
     width:100%;
     display:flex;
