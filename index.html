@@ -20,8 +20,9 @@
       <div class="row min-vh-100">
 
         <!--Sidebar-->
-        <div class="col-1 d-none d-lg-block sidebar-column">
-          <div class="sidebar">
+        
+        <div class="col-1 d-none d-lg-block sidebar-column fixed-top">
+          <div class="sidebar min-vh-100">
             
             <a href="#" id = "home-button" class = "sidebar-child icon-link fa-solid fa-house fa-3x icons" onmouseover = "extendBar(this)" onmouseout = "retractBar(this)"></a>
             <span class="line-break"></span>
@@ -36,8 +37,8 @@
         </div>
 
         <!--page names column-->
-          <div id = "page-names-column" class="col-2  d-none d-lg-block">
-            <div class="sidebar">                      
+          <div id = "page-names-column" class="col-2  d-none d-lg-block fixed-top min-vh-100">
+            <div class="behind-sidebar-container fixed-top min-vh-100">                      
 
               <div id = "home-bar" class = "page-names-containers"><div class = "page-name-bars">Home</div></div>
               <div id = "green-bar" class = "page-names-containers"><div class = "page-name-bars">Green Computing</div></div>
@@ -52,6 +53,7 @@
         
 
         <!--Main Content-->
+        <div id = "page-names-column" class="col-3 d-none d-lg-block"></div>
         <div id = "main_content" class="col"> 
 
           <!--Title-->

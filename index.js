@@ -1,7 +1,7 @@
 function extendBar(button) {
 
     document.getElementById("page-names-column").style.marginLeft = 0;
-    document.getElementById("main_content").style.marginLeft = "-17%";
+    //document.getElementById("main_content").style.marginLeft = "-17%";
 
     var buttonID = button.id;
     console.log(buttonID)
@@ -47,7 +47,7 @@ function extendBar(button) {
 function retractBar(button){
     console.log("retract")
     document.getElementById("page-names-column").style.marginLeft = "-17%";
-    document.getElementById("main_content").style.marginLeft = "0%";
+    //document.getElementById("main_content").style.marginLeft = "0%";
 
     var buttonID = button.id;
     
