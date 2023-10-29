@@ -6,3 +6,26 @@ h1{
     font-size: 4rem;
     color: #5fdd9d;
 }
+
+mark{
+    background: #5fdd9d;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+img{
+    border-radius: 5%;
+}
+
+a.btn{
+    background-color: #5fdd9d;
+    border-color: #5fdd9d;
+    
+}
+
+a.btn:hover{
+    background-color: #2ea168;
+    border-color: #2ea168;
+}
