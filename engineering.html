@@ -38,7 +38,7 @@
 
         <!--page names column-->
           <div id = "page-names-column" class="col-2  d-none d-lg-block fixed-top min-vh-100">
-            <div class="behind-sidebar-container fixed-top min-vh-100">                      
+            <div class="behind-sidebar-container fixed-top min-vh-100">
 
               <div id = "home-bar" class = "page-names-containers"><div class = "page-name-bars">Home</div></div>
               <div id = "green-bar" class = "page-names-containers"><div class = "page-name-bars">Green Computing</div></div>
@@ -50,17 +50,18 @@
 
             </div>
           </div>
-        
+
 
         <!--Main Content-->
+        <!-- duplicate id "page-names-column" -->
         <div id = "page-names-column" class="col-3 d-none d-lg-block"></div>
-        <div id = "main_content" class="col"> 
+        <div id = "main_content" class="col">
 
           <!--Title-->
           <div class="row">
             <div class="col d-none d-lg-block text-right"><h1 id = "replace-text-effect"></h1></div>
             <div class="col text-center"><h1>ENGINEERING</h1></div>
-            
+
           </div>
 
           <!--Main section (text and images)-->
@@ -75,12 +76,13 @@
                     seeking the peak of vehicular performance in the highest echelon of racing. Computers have contributed
                     in many ways, from creating a more dependable interface to design blueprints and ideas, to simulating the
                     aerodynamics of aeroplanes in variable situations.
-                    
+
                   </p>
 
                   <h3>Quality and Quantity</h3>
 
                   <p class="text-content">
+                    <!-- bad character "<" -->
                     Computing has provided a level of abstraction that allows engineers to test their projects without risking them in
                     real world scenarios. The< benefits of this form a lenghty list, but among the most prominent are that it is a much
                     cheaper process, allowing companies to <span class="emph">invest in more projects and innovation,</span> and that it is a more thorough process
@@ -89,7 +91,8 @@
 
               </div>
 
-              <div class="col-lg text-center">  
+              <div class="col-lg text-center">
+                  <!-- stray end img tag, does not need to be closed -->
                 <img src="assets/engineering_page.jpg" alt="positive images" style="width:100%; height:100%;"></img>
               </div>
           </div>
@@ -98,7 +101,7 @@
 
       </div>
     </div>
-    
+
     <script src="engineering.js"></script>
 </body>
 </html>
