@@ -26,7 +26,7 @@
               <span class="fs-4 d-none d-sm-inline">Side Menu</span>
             </a>
             <ul class="nav nav-pills flex-column mt-4">
-              <li class="nav-item py-2 py-sm-0">
+              <li class="nav-item py-2 py-sm-0 my-3">
                 <a href="index.html" class="nav-link text-white">
                   <i class="fs-5 fa fa-house"></i><span class="fs-4 d-none d-sm-inline mx-2">Homepage</span>
                 </a>
@@ -36,7 +36,7 @@
                   <i class="fs-5 fa fa-rocket"></i><span class="fs-4 d-none d-sm-inline mx-2">Space</span>
                 </a>                
               </li>
-              <li class="nav-item py-2 py-sm-0">
+              <li class="nav-item py-2 py-sm-0 my-3">
                 <a href="healthcare.html" class="nav-link text-white">
                   <i class="fs-5 fa fa-medkit"></i><span class="fs-4 d-none d-sm-inline mx-2">Healthcare</span>
                 </a>                
@@ -46,7 +46,7 @@
                   <i class="fs-5 fa fa-bridge"></i><span class="fs-4 d-none d-sm-inline mx-2">Engineering</span>
                 </a>                
               </li>
-              <li class="nav-item py-2 py-sm-0">
+              <li class="nav-item py-2 py-sm-0 my-3">
                 <a href="green_computing.html" class="nav-link text-white">
                   <i class="fs-5 fa fa-tree"></i><span class="fs-4 d-none d-sm-inline mx-2"> Environment</span>
                 </a>                </li>
@@ -57,12 +57,132 @@
               </li>
             </ul>
           </div>
+          <div class="dropdown my-3">
+            <button 
+            class="btn btn-secondary dropdown-toggle" 
+            type="button" id="sidebarDropdown" 
+            data-bs-toggle="dropdown" 
+            aria-expanded="false">
+            Creators
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="sidebarDropdown">
+              <li><a class="dropdown-item" href="#">Mac</a></li>
+              <li><a class="dropdown-item" href="#">Heath</a></li>
+              <li><a class="dropdown-item" href="#">Fab</a></li>
+            </ul>
+          </div>
         </div>
 
         <!--Main content-->
 
         <div class="p-3">
-          <h1>Healthcare</h1>
+          <!--main info and shit-->
+          <div class="col-lg-12 col-md-8 col-sm-5">
+            <div class="container-fluid mx-4">
+              <h1>Computer Science in Healthcare</h1>
+            </div>
+          </div>
+          <div class="container-fluid">
+            <div class="row my-5">
+              <div class="col-sm-12 col-md-8 col-lg-6 mx-4">
+                <h2>Clinical Scientific Computing</h2>
+                <p>
+                  Clinical scientific computing includes maintaining and running the IT systems and Medical aperatus
+                  that helps steamline the healthcare proccess, resulting in a more efficient healthcare system
+                  that can effectivly treat more people in less time with fewer mistakes.From online
+                  medical records which help doctors and nurses track the treatment their patients and decrease diagnosis times 
+                  to revolutionary peices of technology such as the <mark><i><strong>"Da-Vinci Machine"</strong></i></mark>, allowing for more complex surgeries, with
+                  fewer complications, the positive impacts of computer science are no more visible that in healthcare.
+                </p>
+                <p>
+                  With the recent rise in <mark><i><strong>Artificial Intelligence</strong></i></mark>, computer sceince can once again proove itself to be
+                  evermore useful in getting patients out of the hospital doors as fast as possible. AI is used to collect
+                  extreme amounts of medical information and use that to accuratly aid the diagnosis proccess. Recent events, 
+                  like the <mark><i><strong>Covid-19</strong></i></mark> also has given the opportunity for computer sceince to
+                  help, with the use of the Covid-19 tracking app used to detect and measure the spread of the virus in real time.
+                </p>
+                <h2>The Issues it Faces</h2>
+                <p>
+                  With the lives of actual people depending on the reliability of these systems and machines, the effects if something goes wrong
+                  could be catastrophic. In 2017, the globe was struck by a <mark><i><strong>high-scale ransomware attack</strong></i></mark> which affected 
+                  over 150 countries including the <mark><i><strong>NHS</strong></i></mark> in the UK, compromising the integrity of the entire countries medical information. Computer scientists 
+                  must make sure that their systems are heavily tested and secured. One slight error in the coding of the movement of certain surgucal machinary
+                  can result in massive complications for a patient.
+                </p>
+              </div>
+              <div class=" col-sm-12 col-md-8 col-lg-4 mx-3">
+                <img src="assets/medical_equiptment.jpg" alt="medical_equiptment" height="500" width="500">
+                </img>
+              </div>
+            </div>
+          </div>
+
+          <!--cards-->
+
+          <div class="container-fluid mx-5">
+            <h2>Find out more</h2>
+            <div class="row my-5">
+              <div class="col-lg-3 col-md-7">
+                <div class="card w-100 mx-3">
+                  <img 
+                  src="assets/da_vinci_machine.jpg" 
+                  class="card-img-top"
+                  alt="image"
+                  height="300">
+                  <div class="card-body">
+                    <h5 class="card-title">The Da-Vinci Machine</h5>
+                    <p class="card-text">
+                      The Da-Vinci Machince is a piece of medical equiptment that allows a 
+                      surgeon to operate on a small scale with great accuracy and precision.
+                      This technology became famous during it's public demostration in which it
+                      performed surgery on a grape by serperating the skin from the centre.
+                    </p>
+                    <a href="https://www.intuitive.com/en-gb/products-and-services/da-vinci/systems" class="btn btn-primary">See more</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-7">
+                <div class="card mx-3 w-100">
+                  <img 
+                  src="assets/artificial_intelligence.jpg" 
+                  class="card-img-top"
+                  alt="image"
+                  height="300">
+                  <div class="card-body">
+                    <h5 class="card-title">Artificial Intelligence</h5>
+                    <p class="card-text">
+                      When diagnosing patients, doctors can take much longer to consider all available
+                      information, especially when time us of the essence. With the use of AI diognosis speeds and
+                      trends in illnesses can be calculated and accounted for in a fraction of the time. Find out more about
+                      the benefits of AI in healthcare below.
+                    </p>
+                    <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6616181/" class="btn btn-primary">See more</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-7">
+                <div class="card mx-3 w-100">
+                  <img 
+                  src="assets/covid-19.webp" 
+                  class="card-img-top"
+                  alt="image"
+                  height="300">
+                  <div class="card-body">
+                    <h5 class="card-title">Covid-19 App</h5>
+                    <p class="card-text">
+                      In 2020, during the Covid-19 pandemic, the NHS released the Covid-19 track and trace app to help record the spread
+                      of the virus. It used the bluetooth, in people's phones to detect weather you had been in contact with someone
+                      who may have the virus. much controversy was caused surrounding people privacy. Find out more below.
+                    </p>
+                    <a href="https://www.wired.co.uk/article/nhs-covid-19-tracking-app-contact-tracing" class="btn btn-primary">See more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+
+            </div>
+          </div>
         </div>
 
       </div>
