@@ -1,4 +1,4 @@
-const engineeringTypes = ["CIVIL", "MECHANICAL", "CHEMICAL", "AEROSPACE", "ELECTRICAL"];
+const engineeringTypes = ["CIVIL", "MECHANICAL", "CHEMICAL", "AEROSPACE", "ELECTRICAL", "MOTORSPORT"];
 
 let typeIndex = 1;
 let currentTitleText = document.getElementById("replace-text-effect");
@@ -23,7 +23,7 @@ function flyTop() {
 
 function flyBottom() {
 
-    if (typeIndex != 4){
+    if (typeIndex != typeIndex.length){
         typeIndex++;
     }
     else {
